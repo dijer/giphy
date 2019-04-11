@@ -65,9 +65,9 @@
 	text-align: center;
 }
 .history__images{
-	display: inline-block;
 	margin: 70px auto 72px;
 	text-align: left;
+	width: 536px;
 }
 .history__image{
 	display: flex;
