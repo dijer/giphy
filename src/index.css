@@ -36,11 +36,10 @@
 
 /* main */
 .main{
-	padding-top: 1px;
+	padding: 79px 0 31px;
 	text-align: center;
 }
 .main__image{
-	margin-top: 79px;
 	margin-bottom: 31px;
 }
 .main__src{
@@ -61,11 +60,11 @@
 
 /* history */
 .history{
-	padding-top: 1px;
+	padding: 70px 0 72px;
 	text-align: center;
 }
 .history__images{
-	margin: 70px auto 72px;
+	margin: 0 auto;
 	text-align: left;
 	width: 536px;
 }
@@ -97,4 +96,24 @@
 }
 .history__src{
 	width: 169px;
+}
+
+/* paginator */
+.paginator{
+	display: flex;
+	flex-wrap: wrap;
+}
+.paginator__item{
+	margin-right: 10px;
+}
+.paginator__link{
+	padding: 0 15px;
+	font-size: 16px;
+	line-height: 30px;
+	display: inline-block;
+	text-decoration: none;
+	color: #707070;
+}
+.paginator__link_active{
+	font-weight: bold;
 }
