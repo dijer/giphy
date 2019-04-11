@@ -18,10 +18,9 @@ class Main extends React.Component {
 
     render() {
         const { loading, image } = this.props;
-        console.log(this.props);
         return(
             <div className="main shadow">
-                <div className="main__image"><img src={image} alt="" /></div>
+                <div className="main__image"><img className="main__src" src={image} alt="" /></div>
                 <button onClick={this.handleClickUpload} className="main__button">{ loading ? 'Грузим...' : 'Загрузить' }</button>
             </div>
             

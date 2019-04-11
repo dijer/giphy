@@ -43,6 +43,9 @@
 	margin-top: 79px;
 	margin-bottom: 31px;
 }
+.main__src{
+	height: 252px;
+}
 .main__button{
 	border: 0 none;
 	font-size: 16px;
@@ -53,6 +56,7 @@
 	width: 168px;
 	text-align: center;
 	margin-bottom: 70px;
+	cursor: pointer;
 }
 
 /* history */
@@ -69,10 +73,10 @@
 	display: flex;
 	margin-bottom: 30px;
 }
-.history__src{
+.history__left{
 	margin-right: 27px;
 }
-.history__descr{
+.history__right{
 	color: #707070;
 	font-size: 22px;
 	line-height: 25px;
@@ -90,4 +94,7 @@
 	bottom: 5px;
 	right: 5px;
 	color: #fff;
+}
+.history__src{
+	width: 169px;
 }

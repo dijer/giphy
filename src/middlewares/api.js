@@ -8,7 +8,6 @@ export default store => next => action => {
         ...rest, type: type + START
     });
 
-    //fetch('https://api.giphy.com/v1/gifs/random?api_key=xgcnvYuqk4vP1WQQtWPz6F1A0B4WHHdA')
     fetch(apiURL)
         .then(response => response.json())
         .then(response => next({ ...rest, type: type + SUCCESS, response }))
